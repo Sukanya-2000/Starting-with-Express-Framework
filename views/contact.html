@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Add Product</title>
+    <title>Contact Us</title>
     <style>
         body {
             padding: 0;
@@ -98,7 +98,7 @@
             <ul class="main-header__item-list">
                 <li class="main-header__item"><a href="/">Shop</a></li>
                 <li class="main-header__item"><a class="active" href="/admin/add-product">Add Product</a></li>
-                <li class="main-header__item"><a href="routes/contact.js">Contact Us</a></li>
+                <li class="main-header__item"><a href="/">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -106,13 +106,13 @@
     <main>
         <form class="product-form" action="/admin/add-product" method="POST">
             <div class="form-control">
-                <label for="title">Title</label>
+                <label for="title">Message</label>
                 <input type="text" name="title" id="title">
-                <label for="size">Size</label>
+                <label for="size">Contact Number</label>
                 <input type="number" name="size" id="size">
             </div>
 
-            <button type="submit">Add Product</button>
+            <button type="submit">Send Message</button>
         </form>
     </main>
 </body>
